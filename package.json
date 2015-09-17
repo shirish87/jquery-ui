@@ -47,7 +47,8 @@
 	"bugs": "http://bugs.jqueryui.com/",
 	"license": "MIT",
 	"scripts": {
-		"test": "grunt"
+		"test": "grunt",
+		"test-browserstack": "./node_modules/browserstack-runner/bin/cli.js"
 	},
 	"dependencies": {},
 	"devDependencies": {
@@ -66,7 +67,8 @@
 		"grunt-jscs": "2.1.0",
 		"load-grunt-tasks": "0.3.0",
 		"rimraf": "2.1.4",
-		"testswarm": "1.1.0"
+		"testswarm": "1.1.0",
+		"browserstack-runner": "git+https://git@github.com/browserstack/browserstack-runner.git#qs_support"
 	},
 	"keywords": []
 }
